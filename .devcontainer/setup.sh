@@ -2,7 +2,7 @@
 set -e  # Exit on any error
 
 echo "Installing poetry..."
-curl -sSL https://install.python-poetry.org | python3
+curl -sSL https://install.python-poetry.org | python3 -
 
 echo "Export path..."
 poetry --version
