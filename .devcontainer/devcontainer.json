@@ -1,6 +1,6 @@
 {
     "name": "Python 3.11 with Poetry",
-    "image": "python:3.11.6-slim",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11-bullseye",
     // Container Configuration
     // "workspaceFolder": "/workspaces/my-project",
     "shutdownAction": "stopContainer",
