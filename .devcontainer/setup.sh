@@ -5,7 +5,8 @@ echo "Installing poetry..."
 curl -sSL https://install.python-poetry.org | python3
 
 echo "Export path..."
-export PATH=\"$HOME/.local/bin:$PATH\"
+poetry --version
+#export PATH=\"$HOME/.local/bin:$PATH\"
 
 echo "Running poetry install..."
 poetry install
